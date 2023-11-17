@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\User\.nuget\packages\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.8.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\User\.nuget\packages\" />
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">C:\Users\User\.nuget\packages\awssdk.core\3.7.204.13</PkgAWSSDK_Core>
+    <PkgAWSSDK_S3 Condition=" '$(PkgAWSSDK_S3)' == '' ">C:\Users\User\.nuget\packages\awssdk.s3\3.7.205.23</PkgAWSSDK_S3>
+    <PkgAWSSDK_KeyManagementService Condition=" '$(PkgAWSSDK_KeyManagementService)' == '' ">C:\Users\User\.nuget\packages\awssdk.keymanagementservice\3.7.0.29</PkgAWSSDK_KeyManagementService>
+    <PkgAWSSDK_ConfigService Condition=" '$(PkgAWSSDK_ConfigService)' == '' ">C:\Users\User\.nuget\packages\awssdk.configservice\3.7.203.1</PkgAWSSDK_ConfigService>
+    <PkgAWSSDK_AppConfigData Condition=" '$(PkgAWSSDK_AppConfigData)' == '' ">C:\Users\User\.nuget\packages\awssdk.appconfigdata\3.7.200.65</PkgAWSSDK_AppConfigData>
+    <PkgAWSSDK_AppConfig Condition=" '$(PkgAWSSDK_AppConfig)' == '' ">C:\Users\User\.nuget\packages\awssdk.appconfig\3.7.203.6</PkgAWSSDK_AppConfig>
+  </PropertyGroup>
+</Project>

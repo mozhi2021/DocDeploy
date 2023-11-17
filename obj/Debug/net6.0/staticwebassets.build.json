@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "X9jn0cxA+endG8ootG/io1nUurAUOgmapwCMFv5IjnE=",
+  "Source": "DocumentManagementAPI",
+  "BasePath": "_content/DocumentManagementAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
